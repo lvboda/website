@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal portfolio website for lvboda.cn — a single-page static site with no build system or dependencies.
+Personal portfolio website — a single-page static site with no build system or dependencies.
 
 ## Architecture
 
