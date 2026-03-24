@@ -62,32 +62,11 @@
 
   <body>
     <h1>Hello!</h1>
-    <p>● <a href="/blog">个人博客（Blog）</a></p>
+    <p>● <a href="https://lvboda-blog.pages.dev" target="_blank">个人博客（Blog）</a></p>
     <p>● <a href="/resume">在线简历（Resume）</a></p>
     <p>● <a href="https://github.com/lvboda" target="_blank">GitHub</a></p>
-    <p><span id="arrows">▸ </span><a href="javascript:void(0)" onclick="onOtherClick()">个人项目</a></p>
-    <div id="list" style="display: none; margin-left: 30px;">
-      <p style="font-size: 1.1em;">● <a href="/quick-chat">QuickChat</a></p>
-      <p style="font-size: 1.1em;">● <a href="/video-tools">在线音视频处理工具（Video Tools）</a></p>
-    </div>
-
+    <p>● <a href="https://juejin.cn/user/937259096356606" target="_blank">掘金（Juejin）</a></p>
     <footer>
     </footer>
   </body>
-
-  <script>
-    let flag = true;
-    function onOtherClick() {
-      const list = document.getElementById("list");
-      const arrows = document.getElementById("arrows");
-      if (flag) {
-        list.style.display = "block";
-        arrows.innerText = "▾ ";
-      } else {
-        list.style.display = "none";
-        arrows.innerText = "▸ ";
-      }
-      flag = !flag
-    }
-  </script>
 </html>
